@@ -1,0 +1,108 @@
+
+@media(min-width: 700px){
+  .header{
+    width: 100vw;
+    height: 6.8125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2.5rem 1rem ;
+  }
+  .div__header{
+    width: 48rem;
+    min-width: 0%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav__container{
+    max-width: 378px;
+    min-width: 0%;
+  }
+
+  .nav__button{
+    min-width: none;
+    width: 168px;
+  }
+
+  .filter__container{
+    width: 48rem;
+    height: 2.125rem;
+    margin: 2.8125rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .valuesSum{
+    width: 48rem;
+    margin: 2.3125rem 1rem;  
+  }
+
+  .cards__container{
+    margin: 2.3125rem 1rem;
+    width: 48rem;
+  }
+
+  .card__list{
+    width: 48rem;
+    margin: 2.3125rem 0rem;
+  }
+
+  .modal__controller{
+    min-width: 26.75rem;
+    height:25rem ;
+    left: 35.33%;
+    right: 35.26%;
+    top: 31.87%;
+  }
+
+  .closeButton{
+    left: 22.5rem;
+  }
+
+.optionValue__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.optionButtonEnter{
+  width: 4.125rem;
+}
+
+.optionButtonOut{
+  width: 4.125rem;
+}
+
+.inputValue{
+  width: 23.75rem;
+}
+
+.deletAndInsert__container{
+  justify-content:flex-end ;
+  align-items: flex-end;
+}
+
+.insertButton{
+  width: 109px;
+}
+
+.deletButton{
+  width: 5.5625rem;
+}
+
+.divSpan{
+  display: none;
+  max-width: 48rem;
+  height: 5.25rem;
+  margin: 0 23.75rem;
+  gap: 1.25rem;
+  padding: 1.25rem;
+ }
+ }
